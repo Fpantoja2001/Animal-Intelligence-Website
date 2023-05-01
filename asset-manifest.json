@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Animal-Intelligence-Website/static/css/main.b0eb3889.css",
+    "main.js": "/Animal-Intelligence-Website/static/js/main.5232d095.js",
+    "index.html": "/Animal-Intelligence-Website/index.html",
+    "main.b0eb3889.css.map": "/Animal-Intelligence-Website/static/css/main.b0eb3889.css.map",
+    "main.5232d095.js.map": "/Animal-Intelligence-Website/static/js/main.5232d095.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0eb3889.css",
+    "static/js/main.5232d095.js"
+  ]
+}

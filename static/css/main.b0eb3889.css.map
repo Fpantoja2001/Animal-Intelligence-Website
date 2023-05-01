@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.b0eb3889.css","mappings":"AAAA,GACI","sources":["components/navbar/main.scss"],"sourcesContent":["h1 {\n    background-color: antiquewhite;\n}"],"names":[],"sourceRoot":""}
