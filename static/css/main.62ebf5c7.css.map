@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.62ebf5c7.css","mappings":"AAAA,GACI,yBCAA,wBDAA","sources":["components/landingpage/main.scss","components/navbar/main.scss"],"sourcesContent":["h1 {\n    background-color: antiquewhite;\n}","h1 {\n    background-color: aliceblue;\n}"],"names":[],"sourceRoot":""}
