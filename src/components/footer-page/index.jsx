@@ -19,11 +19,11 @@ export default function Footer(){
                     <div className='sections'>
                         <div className='sTextHolder1'>
                             <p className='sTitle1'>SECTIONS</p>
-                            <p>HOME</p>
-                            <p>BRIEF HISTORY</p>
-                            <p>CASE STUDIES</p>
-                            <p>MORE IN DEPTH</p>
-                            <p>FAQ</p>
+                            <li><a href="#landing">HOME</a></li>
+                            <li><a href="#brief">BRIEF HISTORY</a></li>
+                            <li><a href="#case">CASE STUDIES</a></li>
+                            <li><a href="#more">MORE IN DEPTH</a></li>
+                            <li><a href="#faq">FAQ</a></li>
                         </div>
                         <div className='sTextHolder2'>
                             <p className='sTitle2'>MORE INFO</p>

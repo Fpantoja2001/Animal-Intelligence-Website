@@ -4,23 +4,21 @@
     font-family: 'Space Grotesk', sans-serif;
 }
 
-.App {
+.app {
     height: 100vh;
-  
     .pages {
+      scroll-snap-type: y mandatory;
+      overflow-y: scroll;
+      &::-webkit-scrollbar {
+        display: none;
+      }
       width: 100%;
       height: calc(100vh - 80px);
       position: relative;
       top: 80px;
-      scroll-behavior: smooth;
-      scroll-snap-type: y mandatory;
-      scrollbar-width: none; // for firefox
-      &::-webkit-scrollbar {
-        display: none;
-      }
       > * {
         width: 100vw;
-        height: calc(100vh - 70px);
+        height: calc(100vh - 80px);
         scroll-snap-align: start;
       }
     }
