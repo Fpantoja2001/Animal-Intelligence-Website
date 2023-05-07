@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Animal-Intelligence-Website/static/css/main.d8a49aa4.css",
-    "main.js": "/Animal-Intelligence-Website/static/js/main.439b3ae2.js",
+    "main.css": "/Animal-Intelligence-Website/static/css/main.b132e198.css",
+    "main.js": "/Animal-Intelligence-Website/static/js/main.0d67b5ac.js",
     "index.html": "/Animal-Intelligence-Website/index.html",
-    "main.d8a49aa4.css.map": "/Animal-Intelligence-Website/static/css/main.d8a49aa4.css.map",
-    "main.439b3ae2.js.map": "/Animal-Intelligence-Website/static/js/main.439b3ae2.js.map"
+    "main.b132e198.css.map": "/Animal-Intelligence-Website/static/css/main.b132e198.css.map",
+    "main.0d67b5ac.js.map": "/Animal-Intelligence-Website/static/js/main.0d67b5ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8a49aa4.css",
-    "static/js/main.439b3ae2.js"
+    "static/css/main.b132e198.css",
+    "static/js/main.0d67b5ac.js"
   ]
 }
