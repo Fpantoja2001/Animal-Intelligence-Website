@@ -2,6 +2,8 @@ import './main.scss'
 
 export default function LandingPage(){
     return (
-        <h1>Landing</h1>
+        <div className='landingContainer'>
+            <div className='title'>Animal Intelligence</div>
+        </div>
     )
 }

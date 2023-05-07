@@ -1,0 +1,118 @@
+@import '/src/App.scss';
+
+.footerContainer {
+    position: absolute;
+    
+    .topFooter {
+        height: 70%;
+    }
+    .bottomFooter {
+        height: 30%;
+        background-color: $french-grey;
+        
+        .bottomContainer {
+            width: 80%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            margin-left: auto;
+            margin-right: auto;
+            .projectDescript {
+                width: 33%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .pDTextHolder {
+                    .pDTitle{
+                        font-weight: 700;
+                        font-size: 16px;
+                    }
+                    p{
+                        font-size: 15px;
+                        font-weight: 400;
+                        margin-top: 15px;
+                    }
+                }
+            }
+            .sections {
+                width: 33%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                .sTextHolder1 {
+                    .sTitle1{
+                        font-weight: 700;
+                        font-size: 16px;
+                    }
+                    p{
+                        font-size: 15px;
+                        font-weight: 400;
+                        margin-top: 15px;
+                    }
+                }
+
+                .sTextHolder2 {
+                    margin-left: 190px;
+                    .sTitle2{
+                        font-weight: 700;
+                        font-size: 16px;
+                    }
+                    .sTitle3{
+                        font-weight: 700;
+                        font-size: 16px;
+                    }
+                    p{
+                        font-size: 15px;
+                        font-weight: 400;
+                        margin-top: 15px;
+                    }
+                }
+            }
+            .contact {
+                width: 33%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                .cTextHolder{
+                    .cTitle1{
+                        font-weight: 700;
+                        font-size: 16px;
+                    } 
+                    i {
+                        font-size: 20px;
+                        margin-right:10px;
+                        margin-top: 15px;
+
+                    }
+                    .cTitle2 {
+                        margin-top: 47px;
+                        font-weight: 700;
+                        font-size: 16px;
+                    }
+                    .subBox {
+                        margin-top: 15px;
+                        border: solid 1px black;
+                       .inputBox {
+                            height: 30px;
+                            width: 250px;
+                            padding: 10px;
+                            border: 0px;
+                            background-color: $off-white;
+
+                        } 
+                        .enterBox {
+                            height: 50px;
+                            padding: 15px;
+                            border: 0px;
+                            font-weight: 700;
+                            border-left: solid 1px black;
+                            background-color: $off-white;
+                        }
+                    } 
+                }
+            } 
+        }
+    }
+}

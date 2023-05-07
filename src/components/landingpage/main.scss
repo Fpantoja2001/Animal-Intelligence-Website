@@ -1,3 +1,14 @@
-h1 {
-    background-color: antiquewhite;
+@import '/src/App.scss';
+
+.landingContainer {
+    background-color: $off-white;
+    height: calc(100vh - 80px);
+
+    .title {
+        font-size: 300px;
+        font-weight: 700;
+        position: absolute;
+        left: 100px;
+        top: 20%;
+    }
 }
